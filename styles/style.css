@@ -330,7 +330,7 @@
 
 .step {
   /* Agrega estilos */
-  width: 220px;
+  flex-basis: 220px;
 }
 
 .step__title {
@@ -356,22 +356,22 @@
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: #ffff;
+  padding: 60px 80px 0px 80px;
 }
 
 .footer__columns {
   display: flex;
   flex-wrap: wrap;
-  padding: 60px 80px 0px 80px;
 }
 
 .footer__column_content_hours {
-  margin-right: 80px;
   margin-left: auto;
 }
 
 .footer__column_content_social {
   display: flex;
   flex-direction: column;
+  margin-left: 80px;
 }
 
 .footer__logo {
@@ -397,14 +397,17 @@
 .footer__column-link {
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: flex-start;
+  column-gap: 10px;
 }
 
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  margin-right: 10px;
 }
 
 .footer__copyright {
-  margin: 100px 80px 60px 80px;
+  margin-top: 100px;
+  margin-bottom: 60px;
 }
