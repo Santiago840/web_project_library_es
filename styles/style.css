@@ -158,12 +158,14 @@
   line-height: 30px;
   font-weight: 700;
   margin: 0;
+  padding-bottom: 20px;
 }
 
 .card__text {
-  margin: 20px 0 0;
+  margin: 20px;
   font-size: 16px;
   line-height: 24px;
+  display: contents;
 }
 
 .card__footer {
